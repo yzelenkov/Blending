@@ -17,4 +17,4 @@
 #    SpendignClassifier(clfs,meta)
 #
 #         training set is splitted on few parts (Xk,yk), k = n_folds. n_folds-1 are used for training of basic classifiers, 
-#         last part is used to generate meta fetures.
+#         last part is used to generate meta features.
