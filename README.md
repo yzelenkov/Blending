@@ -9,9 +9,9 @@ meta - meta classifier
         
 training set (X,y) is splitted on two parts (X1,y1) and (X2,y2), new training set (M,y2) is created
         
-for each clf in clfs:
-    clf.fit(X1,y1)
-    M += clf.predict(X2,y2)
+for each clf in clfs: \
+    clf.fit(X1,y1) \
+    M += clf.predict(X2,y2) \
 meta.fit(M,y2)
         
 ##### SpendignClassifier(clfs,meta)
